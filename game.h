@@ -12,7 +12,7 @@
 
 
 void menu();//菜单函数
-void display(char show[ROW][COL]);//给玩家展示版面展示
+void display (char show[ROW][COL]);//给玩家展示版面展示
 int game(char mine[ROW][COL], char show[ROW][COL]);//游戏
 void set_mine(char mine[ROW][COL]);//设置雷
 int sweep(char mine[ROW][COL], char show[ROW][COL]);//排雷
